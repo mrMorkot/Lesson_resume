@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+body{
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    background: #f1f1f1;
+    color: #0f141e;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+/* .box {
+    border: 1px solid red;
+    display: inline-block;
+    box-sizing:border-box;
+} */
+
+.info{
+    display: block;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.img {
+    border-radius: 12px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #86898f;
+    background: #f1f1f1;
+    margin-left: 40px;
+    
+}
+
+@media(max-width:650px){
+    .info{
+        display: block;
+        text-align: center;
+    }
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+}
+
+.table{
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    /* border-radius: 4px; */
+}
+
+.table th {
+    font-weight: bold;
+    padding: 5px;
+    /* background: #dddddd; */
+     /* border-radius: 4px; */
+    border: 1px solid;
+}
+
+.table td {
+    border: 1px solid #dddddd;
+    padding: 5px;
+    padding-bottom: 10px;
+
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3){
+    color: #86898f;
+}
+    
+
+.card-1{
+    /* background: #f1f1f1; */
+    /* border-radius: 4px; */
+    margin-left: 25px;
+    
+    
+
+}
+
+.card-1 p {
+    margin-left: 5px;
+}
+
+.card-2{
+    /* background: #f1f1f1; */
+    opacity: 90%;
+    /* border-radius: 8px; */
+    /* border: 2px solid ; */
+    padding-left: 10px;
+    padding-bottom: 4px;
+    padding-top: auto;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    
+}
+
+.card-3{
+    background: lightsalmon;
+    opacity: 90%;
+    border-radius: 8px;
+    /* border: 2px solid ; */
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-bottom: 4px;
+    margin-top: 5px;
+    margin-bottom: 4px;
+}
+
+.card-4{
+    /* background: lightseagreen; */
+    opacity: 90%;
+    border-radius: 8px;
+    /* border: 2px solid ; */
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    margin-top: 5px;
+}
+
+.bg-green{
+    background: lightcyan;
+}
+
+a {
+    color: #86898f;
+}
+
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color: violet;
+}
+
+a:active {
+    color: aqua;
+}
+
+.btn {
+    background: lightcoral ;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: .7;
+    color: lightskyblue;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-row{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group{
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 50%;
+    /* width: calc(50% -20px); */
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 650px) {
+    .form-row{
+        display: block;
+    }
+
+    .form-row .form-group{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+
